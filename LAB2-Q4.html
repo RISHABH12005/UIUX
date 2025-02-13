@@ -1,0 +1,58 @@
+<!-- Styled Table
+o Create a table with 4 columns and 3 rows.
+o Apply CSS to style the table, making headers a different color and adding padding to cells.
+o Add a hover effect to the rows. -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Styled Table</title>
+	<style>
+		Table{
+			width:100%;
+			border-collapse:collapse;
+			margin:400px 0;
+		}
+		th{
+			background-color:lightseagreen;
+			color:maroon;
+			padding:20px;
+			text-align:center;
+		}
+		td{
+			padding:10px;
+			border:1px solid #ddd;
+			text-align:center;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<th>Alpha</th>
+			<th>Beta</th>
+			<th>Gama</th>
+			<th>Dalta</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>20</td>
+			<td>30</td>
+			<td>40</td>
+		</tr>
+		<tr>
+			<td>100</td>
+			<td>200</td>
+			<td>300</td>
+			<td>400</td>
+		</tr>
+	</table>
+</body>
+</html>

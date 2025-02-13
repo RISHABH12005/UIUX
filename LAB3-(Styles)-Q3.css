@@ -1,0 +1,11 @@
+/* Conected With LAB3-(external)-Q3 */
+h1 {color: blue;}
+p {color: maroon;}
+button {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {background-color: lightgreen;}

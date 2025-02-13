@@ -1,0 +1,40 @@
+<!-- Making the hover effect in on button -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dropdown</title>
+	<style>
+		.dropdown{
+			position: relative;
+			display: inline-block;
+		}
+		.content{
+			display: none;
+			position: absolute;
+		}
+		button{
+			color: red;
+			width: 100%;
+		}
+		.dropdown:hover .content{
+			display: block;
+		}
+		button:hover{
+			color: black;
+			background-color: lightblue;
+		}
+	</style>
+</head>
+<body>
+	<div class="dropdown">
+		<button>Dropdown</button>
+		<div class="content">
+			<button>Link 1</button>
+			<button>Link 2</button>
+			<button>Link 3</button>
+		</div>
+	</div>
+</body>
+</html>

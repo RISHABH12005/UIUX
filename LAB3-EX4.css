@@ -1,0 +1,23 @@
+/* Conected with LAB3-EX3.html
+Create a CSS File:
+o File: styles.css
+o Contents: */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+h1 {
+color: darkblue;
+}
+.container {
+width: 80%;
+margin: auto;
+}
+#main-button {
+background-color: teal;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+}

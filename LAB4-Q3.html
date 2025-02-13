@@ -1,0 +1,69 @@
+<!-- Interactive Divs
+o Create a webpage with multiple divs.
+o Add some interactive elements like buttons or links within these divs.
+o Apply hover effects using CSS.-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Divs</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+        .div {
+            background-color:green;
+            padding: 20px;
+            margin: 15px;
+            border: 2px solid darkred;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .div:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .div button {
+            background-color: #lightblue;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .div button:hover {
+            background-color: yellowgreen;
+        }
+        .div a {
+            color: orangered;
+            text-decoration: none;
+            margin-left: 10px;
+            transition: color 0.3s;
+        }
+        .div a:hover {
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <h2>Div 1</h2>
+        <p>JUET</p>
+        <button>Click</button>
+        <a href="#">Learn More</a>
+    </div>
+    <div class="div">
+        <h2>Div 2</h2>
+        <p>I'm Rishabh</p>
+        <button>Bomb</button>
+        <a href="#">Read More</a>
+    </div>
+    <div class="div">
+        <h2>Div 3</h2>
+        <p>Bug</p>
+        <button>Select</button>
+        <a href="#">Contact</a>
+    </div>
+</body>
+</html>

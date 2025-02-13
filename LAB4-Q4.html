@@ -1,0 +1,50 @@
+<!-- Nested Divs
+o Create a webpage with a main container div.
+o Inside the main container, create two divs side-by-side.
+o Each of these divs should contain some text and have different background colors. -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Divs</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            margin: 20px;
+            background-color: orangered;
+            border: 2px solid magenta;
+        }
+        .L,.R {
+            flex: 1;
+            padding: 20px;
+            margin: 0 10px;
+            color: white;
+        }
+        .L{
+            background-color:greenyellow;
+        }
+        .R{
+            background-color:burlywood;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="L">
+            <h2>Left</h2>
+            <p>JUET</p>
+        </div>
+        <div class="R">
+            <h2>Right</h2>
+            <p>I'm Rishabh</p>
+        </div>
+    </div>
+</body>
+</html>

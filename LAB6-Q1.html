@@ -1,0 +1,115 @@
+<!-- Blog Post Layout
+Objective: Design a responsive blog post layout that includes a header, main content area, and sidebar.
+Requirements:
+    1. Header:
+        ◦ Use a <div> for the header that spans the full width of the page.
+        ◦ Include a title and a navigation menu.
+        ◦ Apply padding of 20px for inner spacing and a margin of 0 for outer spacing.
+    2. Main Content Area:
+        ◦ Create a <div> for the main content that takes up 70% of the page width.
+        ◦ Use padding of 15px for inner spacing.
+        ◦ Include at least one blog post with a title, image, and text.
+        ◦ Add a margin of 20px on all sides to separate it from the sidebar.
+    3. Sidebar:
+        ◦ Create a <div> for the sidebar that takes up 25% of the page width.
+        ◦ Use padding of 15px.
+        ◦ Add a margin of 20px on the left side to create space between the main content and the sidebar.
+    4. Footer:
+        ◦ Use a <div> for the footer that spans the full width of the page.
+        ◦ Include copyright information and links to social media.
+        ◦ Apply padding of 10px and a margin of 0. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1 {
+    margin: 0;
+}
+.header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.header nav a:hover {
+    text-decoration: underline;
+}
+.content-wrapper {
+    display: flex;
+    margin: 20px;
+}
+.main-content {
+    width: 70%;
+    padding: 100px;
+    background-color: #f5f5f5;
+    margin-right: 20px;
+}
+.main-content .post-image {
+    width: 100px;
+    float: left;
+    margin-right: 0px;
+}
+.sidebar {
+    width: 25%;
+    padding: 30px;
+    background-color: #ddd;
+}
+.footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Blog</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+    <div class="content-wrapper">
+        <div class="main-content">
+            <h2>Blog Post Title</h2>
+            <img src="https://dotbadges.com/wp-content/uploads/2023/01/Panda-Sticker-510x510.webp" alt="Panda" class="post-image">
+            <p>Hi I am Panda</p>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h3>Sidebar</h3>
+            <p>Links & Information.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2024 My Blog. Follow us on social media!</p>
+    </div>
+</body>
+</html>
