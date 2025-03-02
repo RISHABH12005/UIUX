@@ -22,7 +22,7 @@ UX focuses on optimizing the user’s journey.
 
 ---
 
-## *HTML*
+## *About HTML*
 HTML (HyperText Markup Language) is the backbone of web development, used to structure the content of web pages.
 
 - Defines the structure and organization of web content.
@@ -34,7 +34,7 @@ HTML (HyperText Markup Language) is the backbone of web development, used to str
 
 ---
 
-## *CSS*
+## *About CSS*
 CSS (Cascading Style Sheets) is responsible for styling the appearance of a web page, making it visually appealing and user-friendly.
 
 - Controls colors, fonts, spacing, layouts, and animations.
