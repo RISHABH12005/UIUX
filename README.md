@@ -1,4 +1,4 @@
-# *UI/UX (CSS & HTML) Deep Knowledge*
+# *UI/UX*
 
 ## *Introduction to UI/UX*
 UI (User Interface) and UX (User Experience) design are crucial aspects of web development. UI focuses on the visual design and interaction elements, while UX emphasizes user satisfaction and usability. 
