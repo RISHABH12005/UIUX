@@ -6,15 +6,15 @@ Design are crucial aspects of web development. UI focuses on the visual design &
 ---
 
 ## *Core Concepts*
-### *1. User Interface (UI)*
-UI deals with the appearance & interactive elements of a website or app.
+### *1. UI*
+Deals with the appearance & interactive elements of a website or app.
 - *Typography*: Choosing readable & aesthetically pleasing fonts.
 - *Color Theory*: Using color psychology to enhance usability.
 - *Layouts & Grids*: Structuring content for better organization & responsiveness.
 - *Buttons & Forms*: Designing interactive elements for a smooth experience.
 
-### *2. User Experience (UX)*
-UX focuses on optimizing the user’s journey.
+### *2. UX*
+Focuses on optimizing the user’s journey.
 - *Usability*: Ensuring easy navigation & intuitive interactions.
 - *Wireframing & Prototyping*: Sketching layouts before development.
 - *Accessibility*: Making interfaces usable for all users, including those with disabilities.
@@ -22,8 +22,8 @@ UX focuses on optimizing the user’s journey.
 
 ---
 
-## *About HTML*
-HTML (HyperText Markup Language) is the backbone of web development, used to structure the content of web pages.
+## *HTML (HyperText Markup Language)*
+The backbone of WebD, used to structure the content of web pages.
 
 - Defines the structure & organization of web content.
 - Allows inclusion of text, images, links, multimedia.
@@ -34,8 +34,8 @@ HTML (HyperText Markup Language) is the backbone of web development, used to str
 
 ---
 
-## *About CSS*
-CSS (Cascading Style Sheets) is responsible for styling the appearance of a web page, making it visually appealing & user-friendly.
+## *CSS (Cascading Style Sheets)*
+ A responsible for styling the appearance of a web page, making it visually appealing & user-friendly.
 
 - Controls colors, fonts, spacing, layouts, animations.
 - Separates design from content for better organization.
