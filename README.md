@@ -1,6 +1,6 @@
 # *UI (User Interface) /UX (User Experience)*
 
-## *Introduction*
+## *Intro*
 Design are crucial aspects of web development. UI focuses on the visual design & interaction elements, while UX emphasizes user satisfaction & usability. 
 
 ---
